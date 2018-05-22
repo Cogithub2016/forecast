@@ -7,18 +7,18 @@ var filesToCache = [
     '/forecast/scripts/app.js',
     '/forecast/styles/inline.css',
     '/forecast/images/clear.png',
-    '/images/cloudy-scattered-showers.png',
-    '/images/cloudy.png',
-    '/images/fog.png',
-    '/images/ic_add_white_24px.svg',
-    '/images/ic_refresh_white_24px.svg',
-    '/images/partly-cloudy.png',
-    '/images/rain.png',
-    '/images/scattered-showers.png',
-    '/images/sleet.png',
-    '/images/snow.png',
-    '/images/thunderstorm.png',
-    '/images/wind.png'
+    '/forecast/images/cloudy-scattered-showers.png',
+    '/forecast/images/cloudy.png',
+    '/forecast/images/fog.png',
+    '/forecast/images/ic_add_white_24px.svg',
+    '/forecast/images/ic_refresh_white_24px.svg',
+    '/forecast/images/partly-cloudy.png',
+    '/forecast/images/rain.png',
+    '/forecast/images/scattered-showers.png',
+    '/forecast/images/sleet.png',
+    '/forecast/images/snow.png',
+    '/forecast/images/thunderstorm.png',
+    '/forecast/images/wind.png'
 ];
 self.addEventListener('install',function(e){
     console.log('[service worker] Install');
